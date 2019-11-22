@@ -29,7 +29,7 @@ syn match risc240Comment            ";.*" contains=risc240Todo
 " with '.', including the GCC auto-generated '.L' labels.
 syn match risc240PseudoOp           "\.\%(org\|dw\|equ\)"
 
-syn match risc240Instr              "\<\%(add\|and\|bra\|brc\|brn\|brz\|brnz\|brv\|li\|lw\|mv\|not\|or\|sll\|slli\|slt\|slti\|sra\|srai\|srl\|srli\|stop\|sub\|sw\|xor\)\>"
+syn match risc240Instr              "\<\%(add\|addi\|and\|bra\|brc\|brn\|brz\|brnz\|brv\|li\|lw\|mv\|not\|or\|sll\|slli\|slt\|slti\|sra\|srai\|srl\|srli\|stop\|sub\|sw\|xor\)\>"
 
 syn match risc240Reg                "\<r[0-7]\>"
 
